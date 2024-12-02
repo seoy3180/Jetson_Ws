@@ -1,0 +1,6 @@
+# Request
+string command  # "stop", "forward", "backward", "turn_left", "turn_right"
+
+# Response
+bool success    # 요청이 성공적으로 처리되었는지 여부
+string message  # 요청 처리 결과에 대한 설명 메시지
